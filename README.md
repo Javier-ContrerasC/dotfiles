@@ -11,7 +11,7 @@ En este se recopilan:
 - Alias personalizados
 
 
-## .config
+## .config/
 
 ### .nvim
 
