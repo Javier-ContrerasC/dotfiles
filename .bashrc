@@ -117,8 +117,9 @@ fi
 # ----------------------------------
 echo
 
-# Utility to use cowsay and fortune
+# Utilities to use packages like cowsay, fortune, snap
 export PATH=$PATH:/usr/games
+
 
 # System information
 neofetch
@@ -143,6 +144,6 @@ printf "%s" "$cli_colorize_user" ; figlet -c -f mini "Hola querido programador";
 echo
 
 # Aliases
-alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
-
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias bat='batcat'
 
