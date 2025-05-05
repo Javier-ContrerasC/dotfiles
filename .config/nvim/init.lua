@@ -28,7 +28,7 @@ vim.cmd [[highlight LineNrBelow guifg=#8a65c0]]
 -- End of Buffer (~)
 vim.cmd [[highlight EndOfBuffer guifg=#5a4e66]]
 
--- Keep cursor position
+-- Keep cursor position when reopening files
 vim.cmd [[
   autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |

@@ -11,9 +11,8 @@ En este se recopilan:
 - Alias personalizados
 
 
-## .config/
-
-### .nvim
+## .config/nvim
+### init.lua
 
 Por defecto se usa neovim como editor de texto.
 En su dotfile se especifica:

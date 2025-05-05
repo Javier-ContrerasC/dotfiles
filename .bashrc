@@ -117,32 +117,32 @@ fi
 # ----------------------------------
 echo
 
-# Para poder usar cowsay y fortune
+# Utility to use cowsay and fortune
 export PATH=$PATH:/usr/games
 
-# Informacion del sistema
+# System information
 neofetch
 
-# Colores del sistema
+# Definition of system colors
 
 cli_colorize_normal="$(printf '\033[0m')" # returns to normal
 cli_colorize_red="$(printf '\033[0;1;31m')" # set bold red
 cli_colorize_user="$(printf '\033[0;1;32m')" # set bright green
 
-# Mensaje de bienvenida
+# Welcome message colorized
 
 printf "%s" "$cli_colorize_user" ; figlet -c -f mini "Hola querido programador"; printf "%s" "$cli_colorize_normal";
 
-# Cowsay con mensaje de fortune, cambiando el color de ASCII
+# Cowsay with fortune message and red colorized 
 #printf "%s" "$cli_colorize_red" ; fortune | cowsay; printf "%s" "$cli_colorize_normal";
 
-# PARA HACER UN COWSAY ARCOIRIS
+# Rainbow cowsay
 # fortune | cowsay | lolcat
 
-# Para hacer un salto de linea luego de cowsay
+# New line after welcome message 
 echo
 
-# Alias
+# Aliases
 alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 
 
