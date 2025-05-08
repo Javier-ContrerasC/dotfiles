@@ -120,7 +120,6 @@ echo
 # Utilities to use packages like cowsay, fortune, snap
 export PATH=$PATH:/usr/games
 
-
 # System information
 neofetch
 
@@ -146,4 +145,6 @@ echo
 # Aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias bat='batcat'
+alias pipes='pipes.sh' # options with: -t {1-9}
+alias dotfiles-add='dotfiles add ~/.bashrc ~/.config/nvim/init.lua ~/.config/neofetch/config.conf ~/README.md ~/packages_script.sh'
 
